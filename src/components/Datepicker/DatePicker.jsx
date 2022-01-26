@@ -15,7 +15,7 @@ const DatePicker = ({ handleDate, date}) => {
                 type="date"
                 onChange={handleDate}
                 placeholder='select a date'
-                value={date}
+                value={date === ' ' ? max : date}
                 min="1995-06-16"
                 max={max}
             />
