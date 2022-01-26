@@ -7,6 +7,13 @@ const MainContainer = styled.div`
     justify-content: space-between;
     height: 100vh;
 `;
+const Loading = styled(MainContainer)`
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #e1a96e;
+    font-size: 30px;
+`;
 const ContentContainer = styled.section`
     display: flex;
     width: 100%;
@@ -54,4 +61,4 @@ const Title = styled.h1`
 `;
 
 
-export { MainContainer, Description, Title, ContentContainer, StarContainer };
+export { MainContainer, Description, Title, ContentContainer, StarContainer, Loading };
